@@ -1,0 +1,41 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+ul .nav-item a{
+    padding: 18px;
+    margin-left: 60px;
+}
+
+ul .nav-item button{
+    padding: 18px;
+    margin-left: 60px;
+}
+
+h2{
+    margin-left:-100px;
+}
+
+.dropbtn {
+    color: black;
+    font-size: 22px;
+    border: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    color: darkorange;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:lightcyan;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color:darkturquoise;}
